@@ -1,0 +1,33 @@
+# Ignore node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variable files
+.env
+
+# Ignore local MongoDB data if you're using it
+/data/db
+
+# Ignore coverage reports for testing
+coverage/
+
+# Ignore compiled JavaScript files
+*.tsbuildinfo
+
+# Ignore IDE specific files (optional)
+.idea/
+.vscode/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore build output (optional, if you're building your code)
+dist/
+build/
+
