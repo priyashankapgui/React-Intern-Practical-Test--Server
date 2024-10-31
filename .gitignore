@@ -9,7 +9,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Ignore environment variable files
-.env
 
 # Ignore local MongoDB data if you're using it
 /data/db
