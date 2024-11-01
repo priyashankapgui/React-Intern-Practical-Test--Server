@@ -1,9 +1,10 @@
 const mongoose = require("mongoose");
+MONGODB_URL="mongodb+srv://Ushangame:Q8nsCUzzr8XwrnOK@products.gay1l.mongodb.net/?retryWrites=true&w=majority&appName=Products"
 
 //Connect the DB
 const connectDB = async () => {
   try {
-    await mongoose.connect(process.env.MONGODB_URL, {
+    await mongoose.connect(MONGODB_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
